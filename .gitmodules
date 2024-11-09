@@ -4,9 +4,6 @@
 [submodule "i3"]
 	path = i3
 	url = https://github.com/katarafett/i3.git
-[submodule "rofi"]
-	path = rofi
-	url = https://github.com/katarafett/rofi.git
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/katarafett/nvim.git

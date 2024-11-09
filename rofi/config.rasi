@@ -1,0 +1,27 @@
+configuration {
+    font: "Envy Code R 7.5";
+    line-margin: 10;
+
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     false;
+
+    disable-history:true;
+    matching:       "fuzzy";
+    sorting-method: "fzf";
+}
+
+
+@theme "~/.config/rofi/custom.rasi"
+
+listview {
+	lines: 65;
+	columns: 1;
+}
+
+window {
+	width: 10%;
+}

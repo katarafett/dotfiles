@@ -1,0 +1,129 @@
+/**
+ * Nordic rofi theme
+ * Adapted by undiabler <undiabler@gmail.com>
+ *
+ * Nord Color palette imported from https://www.nordtheme.com/
+ *
+ */
+
+
+* {
+	col0: #2e3440;
+	col1: #1e1e2e;
+	col2: #434c5e;
+	col3: #4c566a;
+
+	col4: #d8dee9;
+	col5: #e5e9f0;
+	col6: #eceff4;
+
+	col7: #f38ba8;
+	col8: #88c0d0;
+	col9: #81a1c1;
+	col10: #6c7086;
+	col11: #bf616a;
+
+	col12: #d08770;
+	col13: #ebcb8b;
+	col14: #a3be8c;
+	col15: #b48ead;
+
+    foreground:  @col9;
+    backlight:   #ccffeedd;
+    background-color:  transparent;
+    
+    highlight:     underline bold;
+
+    transparent: rgba(30,30,46,1);
+}
+
+window {
+    location: northwest;
+    anchor:   northwest;
+    transparency: "screenshot";
+    padding: 0px;
+    border:  0px;
+    border-radius: 0px;
+
+    background-color: @transparent;
+    spacing: 0;
+    children:  [mainbox];
+    orientation: horizontal;
+}
+
+mainbox {
+    spacing: 0;
+    children: [ inputbar, message, listview ];
+}
+
+message {
+    color: @col0;
+    padding: 0;
+    border-color: @foreground;
+    border:  0px;
+    background-color: @col7;
+}
+
+inputbar {
+    color: @col6;
+    padding: 2px;
+    background-color: #1e1e2e;
+
+    border: 0px;
+    border-radius:  0px;
+    border-color: #1e1e2e;
+}
+
+entry, prompt, case-indicator {
+    text-font: inherit;
+    text-color:inherit;
+}
+
+prompt {
+    margin: 0px 0em 0em 0em ;
+}
+
+listview {
+    padding: 2px;
+    border-radius: 0px;
+    border-color: inherit;
+    border: 0px 1px 1px 1px;
+    background-color: #2e2e3f;
+    dynamic: false;
+}
+
+element {
+    padding: 2px;
+    vertical-align: 0.5;
+    border-radius: 0px;
+    background-color: @col1;
+    border: 1px;
+    //border-color: #2e2e3f;
+    border-color: #1e1e2e;
+    text-color: rgb(216, 222, 233);
+}
+
+element selected.normal {
+	background-color: @col7;
+	text-color: #2e3440;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+button {
+    padding: 6px;
+    color: @foreground;
+    horizontal-align: 0.5;
+
+    border: 0px;
+    border-radius: 0px;
+    border-color: @foreground;
+}
+
+button selected normal {
+    border: 0px;
+    border-color: @foreground;
+}
