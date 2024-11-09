@@ -13,3 +13,6 @@
 [submodule "vifm/colors"]
 	path = vifm/colors
 	url = https://github.com/vifm/vifm-colors.git
+[submodule "zathura"]
+	path = zathura
+	url = https://github.com/katarafett/zathura.git
