@@ -1,0 +1,69 @@
+add audio/lib/single/
+q
+Q
+add audio/lib/
+update-cache 
+add main/audio/lib/single/
+add main/audio/lib/album/
+pl-create Linkin Park
+pl-create Aviators
+pl-create BABYMETAL
+p-new
+new
+colorscheme spotify
+colorscheme amazon
+a .
+add .
+add lib/single/crcs_circus-monster.ogg
+add lib/single/
+update-cache
+add lib/single/crcs_circus-monster.MTD.ogg
+add lib/single/ldbd_into-the-unknown.ogg
+add lib/single/ldbd_arabian-nights.ogg
+add lib/single/lknp_lost-in-the-echo.ogg
+add lib/single/kira_burn-me-down.ogg
+add ~/audio/lib/single/
+add ~/audio/lib/album/
+clear
+add ~/audio/lib/tmp/avtr_my-church.MTD.ogg
+add ~/audio/lib/tmp/avtr_my-church.MTD.ogg.MTD.ogg
+add ~/audio/lib/tmp/avtr_21st-century-monster.MTD.ogg
+add ~/audio/lib/tmp/*.MTD*
+win-next
+win-next 
+pl-create otac
+h add
+man add
+add 
+win-bottom
+a ~/audio/lib/album
+a ~/audio/lib/single
+colorscheme kanagawa
+colorscheme itunes-like
+colo spotify
+colorscheme zenburn
+colorscheme solarized-dark
+colorscheme night
+colorscheme gruvbox-warm
+colorscheme gruvbox-alt
+colorscheme gruvbox
+colorscheme green-mono-88
+colorscheme green
+colorscheme gray-88
+colorscheme dracula
+colorscheme default
+colorscheme cyan
+colorscheme jellybeans
+colorscheme
+filter 
+add
+r
+rm
+del
+remove
+h
+h w
+aoeusnthaoeu
+save
+w
+live-filter 

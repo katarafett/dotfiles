@@ -1,0 +1,36 @@
+[preview]
+tab_size = 4
+
+[opener]
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+play_audio = [
+	{ run = 'mpv "$@" --no-video', orphan = false, for = "unix" },
+]
+edit_mscz = [
+	{ run = 'mscore "$@"', orphan = true, for = "unix" },
+]
+read = [
+	{ run = 'zathura "$@"', orphan = true, for = "unix" },
+]
+play_3ds = [
+	{ run = 'citra-qt "$@"', orphan = true, for = "unix" },
+]
+view_img = [
+	{ run = 'feh "$@"', orphan = false, for = "unix" },
+]
+
+[open]
+prepend_rules = [
+	{ name = "*.pdf", use = "read" },
+	{ name = "*.ogg", use = "play_audio" },
+	{ name = "*.webm", use = "play" },
+	{ name = "*.mscz", use = "edit_mscz" },
+	{ name = "*.midi", use = "edit_mscz" },
+	{ name = "*.3ds", use = "play_3ds" },
+	{ name = "*.jpg", use = "view_img" },
+	{ name = "*.jpeg", use = "view_img" },
+	{ name = "*.png", use = "view_img" },
+	{ name = "*.webp", use = "view_img" },
+]

@@ -1,15 +1,15 @@
 [submodule "tmux"]
 	path = tmux
 	url = https://github.com/katarafett/tmux.git
-[submodule "i3"]
-	path = i3
-	url = https://github.com/katarafett/i3.git
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/katarafett/nvim.git
-[submodule "vifm/colors"]
-	path = vifm/colors
-	url = https://github.com/vifm/vifm-colors.git
 [submodule "zathura"]
 	path = zathura
 	url = https://github.com/katarafett/zathura.git
+[submodule "sway"]
+	path = sway
+	url = git@github.com:katarafett/sway.git
+[submodule "alacritty"]
+	path = alacritty
+	url = git@github.com:katarafett/alacritty.git
