@@ -1,8 +1,41 @@
-add audio/lib/single/
+filter 
+add single/
+pl-create Awaria
+pl-create Helltaker
+update-cache 
+pl-create Voidreckon
+pl-create Disconnect
+add aria_nightcore-gaming-mix-2021.ogg
+a
+pl-create THE INSIDE OUTTAKES
+pl-create The NOexistenceN of you AND me
+pl-create sett
+pl-create 
 q
+a single
+pl-export ade-pat
+pl-export WorksyDaisy
+pl-export otac
+pl-export *
+pl-export
+pl-create Ade and Pat's Forbidden Black
+pl-create vocaj
+pl-create WorksyDaisy
+pl-create ignorance, silence
+pl-create lajoonque
+pl-delete Default
+pl-delete BABYMETAL
+pl-delete Aviators
+pl-delete Linkin Park
+pl-delete
+cd
+refresh
+h cache
+add album/
+clear 
+add audio/lib/single/
 Q
 add audio/lib/
-update-cache 
 add main/audio/lib/single/
 add main/audio/lib/album/
 pl-create Linkin Park
@@ -55,7 +88,6 @@ colorscheme default
 colorscheme cyan
 colorscheme jellybeans
 colorscheme
-filter 
 add
 r
 rm

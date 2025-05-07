@@ -2,7 +2,7 @@
   "alerts_enabled": false,
   "auth_required": true,
   "first_load": false,
-  "server_enabled": false,
-  "server_password": "NqFux6afnhxhCD7A",
+  "server_enabled": true,
+  "server_password": "LRJHg6BLNSSvqmHW",
   "server_port": 4455
 }

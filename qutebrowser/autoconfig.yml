@@ -6,5 +6,15 @@
 
 config_version: 2
 settings:
-  colors.webpage.darkmode.enabled:
-    global: true
+  editor.command:
+    global:
+    - alacritty
+    - -e
+    - nvim
+    - '{file}'
+  fonts.default_size:
+    global: 8pt
+  fonts.web.size.default:
+    global: 10
+  input.spatial_navigation:
+    global: false

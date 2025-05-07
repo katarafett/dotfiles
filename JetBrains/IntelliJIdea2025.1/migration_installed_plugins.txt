@@ -1,0 +1,3 @@
+com.mituuz.fuzzier
+IdeaVIM
+com.github.erotourtes.harpoon
