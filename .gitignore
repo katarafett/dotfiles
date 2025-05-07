@@ -10,6 +10,7 @@
 /Electron/
 /FTB\ Electron\ App/
 /gh/
+/GIMP/
 /glib-2.0/
 /go/
 /google-chrome/
@@ -21,13 +22,15 @@
 /heroic/
 /ibus/
 /Kiwix/
+/libreoffice/
 /lunarclient/
 /matplotlib/
+/Meltytech/
 /menus/
 /microsoft-edge-dev/
 /modorganizer2/
 /nomacs/
-/obs-studio/logs/
+/obs-studio/
 /ow-electron/
 /procps/
 /protonmail/
@@ -40,7 +43,6 @@
 /Slack/
 /spotify/
 /Thunar/
-/tofi/
 /torbrowser/
 /unity3d/
 /Unknown\ Organization/
